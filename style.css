@@ -3,36 +3,74 @@
     padding: 0;
 }
 body{
-    background-color: red;
+    background-color: brown;
     display: flex;
     align-items: center;
     height: 100vh;
+    font-family: 'Outfit', sans-serif;
 }
 .pai{
-    background-color: blue;
+    background-color: rgb(24, 24, 48);
     width: 280px;
     margin: 0 auto;
-    padding: 100px; /*padding joga uma margen para todos os lados*/
+    padding: 24px; /*padding joga uma margen para todos os lados*/
+    border-radius: 4%;
 }
 .image img{ /*para seleciona a imagen dentro da div class eu tenho que seleciona a imagem tambem(IMG)*/
-    background-color: aqua;
+    
     
 }
 .logocubo{/*para seleciona a imagen dentro da div class eu tenho que seleciona a imagem tambem(IMG)*/
     max-width: 100%;
+    border-radius: 4%;
 }
-.texto{
-
+.texto h2{
+    color: palevioletred;
+    padding-top: 18px;
+}
+.texto p{
+    color: palevioletred;
+    padding-top: 8%;
 }
 .valor{
-
+    display: flex;
+    justify-content: space-between;
+    padding-top: 8%;
+}
+.valor h2{
+    color: greenyellow;
+    align-items: center;
+    font-size: 10px;
+    
+}
+.valor p{
+    color: blueviolet;
+    text-align: center;
+    font-size: 14px;
+    
 }
 .linha{
-
+    background-color: rgba(226, 226, 226, 0.349);
+    padding: 1px;
 }
 .perfil{
-
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding-top: 10px;
 }
-.nome{
-
+.pf{
+    max-width: 10%;
+    background-color: white;
+    padding: 1px;
+    border-radius: 100%;
 }
+.perfil p{
+    padding-left: 15px;
+    font-size: 14px;
+}
+.p2 p{
+    color: aliceblue;
+}
+
+
