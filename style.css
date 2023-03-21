@@ -1,19 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
 *{
     margin: 0;
     padding: 0;
 }
 body{
-    background-color: brown;
+    background-color: hsl(217, 54%, 11%);
     display: flex;
     align-items: center;
     height: 100vh;
     font-family: 'Outfit', sans-serif;
+    font-weight: 600;
 }
 .pai{
-    background-color: rgb(24, 24, 48);
-    width: 280px;
+    background-color: hsl(216, 50%, 16%);
+    width: 240px;
     margin: 0 auto;
-    padding: 24px; /*padding joga uma margen para todos os lados*/
+    padding: 21px; /*padding joga uma margen para todos os lados*/
     border-radius: 4%;
 }
 .image img{ /*para seleciona a imagen dentro da div class eu tenho que seleciona a imagem tambem(IMG)*/
@@ -25,52 +27,70 @@ body{
     border-radius: 4%;
 }
 .texto h2{
-    color: palevioletred;
-    padding-top: 18px;
+    color: hsl(0, 0%, 100%);
+    padding-top: 17px;
+    font-size: 18px;
 }
 .texto p{
-    color: palevioletred;
-    padding-top: 8%;
+    color: hsl(215, 51%, 70%);
+    padding-top: 15px;
+    font-size: 13px;
+    font-weight: 300;
 }
 .valor{
     display: flex;
     justify-content: space-between;
-    padding-top: 8%;
+    padding-top: 18px;
+    padding-bottom: 10px;
+    margin-left: 0px;
+}
+.ETH{
+display: flex;
+align-items: center;
 }
 .valor h2{
-    color: greenyellow;
-    align-items: center;
-    font-size: 10px;
-    
+    color: hsl(178, 100%, 50%);
+    font-size: 12px;
+    font-weight: 600;
+    margin-left: 5px;
+}
+.clock{
+    display: flex;
+align-items: center;
 }
 .valor p{
-    color: blueviolet;
-    text-align: center;
-    font-size: 14px;
-    
+    color: hsl(215, 51%, 70%);
+    font-size: 13px;
+    font-weight: 400;
+    margin-left: 5px;
 }
 .linha{
     background-color: rgba(226, 226, 226, 0.349);
     padding: 1px;
+
 }
 .perfil{
     display: flex;
     align-items: center;
     text-align: center;
     padding-top: 10px;
+    font-size: 13px;
 }
 .pf{
-    max-width: 10%;
+    max-width: 11%;
     background-color: white;
     padding: 1px;
     border-radius: 100%;
 }
-.perfil p{
+.creation{
+    color: hsl(215, 51%, 70%);
     padding-left: 15px;
-    font-size: 14px;
+    font-weight: 400;
+    margin-right: 5px;
 }
-.p2 p{
+.jules{
     color: aliceblue;
+    font-weight: 300;
 }
 
 
