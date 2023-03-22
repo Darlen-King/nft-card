@@ -1,96 +1,116 @@
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
-*{
-    margin: 0;
-    padding: 0;
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
 }
-body{
-    background-color: hsl(217, 54%, 11%);
-    display: flex;
-    align-items: center;
-    height: 100vh;
-    font-family: 'Outfit', sans-serif;
-    font-weight: 600;
+body {
+  background-color: hsl(217, 54%, 11%);
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  font-family: "Outfit", sans-serif;
+  font-weight: 600;
 }
-.pai{
-    background-color: hsl(216, 50%, 16%);
-    width: 240px;
-    margin: 0 auto;
-    padding: 21px; /*padding joga uma margen para todos os lados*/
-    border-radius: 4%;
+.pai {
+  background-color: hsl(216, 50%, 16%);
+  width: 240px;
+  margin: 0 auto;
+  padding: 21px; /*padding joga uma margen para todos os lados*/
+  border-radius: 4%;
 }
-.image img{ /*para seleciona a imagen dentro da div class eu tenho que seleciona a imagem tambem(IMG)*/
-    
-    
-}
-.logocubo{/*para seleciona a imagen dentro da div class eu tenho que seleciona a imagem tambem(IMG)*/
-    max-width: 100%;
-    border-radius: 4%;
-}
-.texto h2{
-    color: hsl(0, 0%, 100%);
-    padding-top: 17px;
-    font-size: 18px;
-}
-.texto p{
-    color: hsl(215, 51%, 70%);
-    padding-top: 15px;
-    font-size: 13px;
-    font-weight: 300;
-}
-.valor{
-    display: flex;
-    justify-content: space-between;
-    padding-top: 18px;
-    padding-bottom: 10px;
-    margin-left: 0px;
-}
-.ETH{
-display: flex;
-align-items: center;
-}
-.valor h2{
-    color: hsl(178, 100%, 50%);
-    font-size: 12px;
-    font-weight: 600;
-    margin-left: 5px;
-}
-.clock{
-    display: flex;
-align-items: center;
-}
-.valor p{
-    color: hsl(215, 51%, 70%);
-    font-size: 13px;
-    font-weight: 400;
-    margin-left: 5px;
-}
-.linha{
-    background-color: rgba(226, 226, 226, 0.349);
-    padding: 1px;
+/*.image img{}para seleciona a imagen dentro da div class eu tenho que seleciona a imagem tambem(IMG)*/
 
+.logocubo {
+  /*para seleciona a imagen dentro da div class eu tenho que seleciona a imagem tambem(IMG)*/
+  width: 100%;
+  border-radius: 4%;
+  object-fit: cover;
+  height: auto;
 }
-.perfil{
-    display: flex;
-    align-items: center;
-    text-align: center;
-    padding-top: 10px;
-    font-size: 13px;
+.image {
+  position: relative;
 }
-.pf{
-    max-width: 11%;
-    background-color: white;
-    padding: 1px;
-    border-radius: 100%;
-}
-.creation{
-    color: hsl(215, 51%, 70%);
-    padding-left: 15px;
-    font-weight: 400;
-    margin-right: 5px;
-}
-.jules{
-    color: aliceblue;
-    font-weight: 300;
-}
+.olho {
+  position: absolute;
+  inset: 0;
+  transform: scale(0);
+  background-color: hsla(178, 100%, 50%, 0.705);
 
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4%;
+}
+.image:hover .olho {
+  transform: scale(1);
+}
+.texto a {
+  color: hsl(0, 0%, 100%);
+  padding-top: 17px;
+  font-size: 18px;
+  text-decoration: none;
+}
+.texto a:hover {
+  color: hsl(178, 100%, 50%);
+}
+.texto p {
+  color: hsl(215, 51%, 70%);
+  padding-top: 15px;
+  font-size: 14px;
+  font-weight: 300;
+}
+.valor {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 18px;
+  padding-bottom: 10px;
+  margin-left: 0px;
+}
+.ETH {
+  display: flex;
+  align-items: center;
+}
+.valor h2 {
+  color: hsl(178, 100%, 50%);
+  font-size: 12px;
+  font-weight: 600;
+  margin-left: 5px;
+}
+.clock {
+  display: flex;
+  align-items: center;
+}
+.valor p {
+  color: hsl(215, 51%, 70%);
+  font-size: 13px;
+  font-weight: 400;
+  margin-left: 5px;
+}
+.perfil {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  padding-top: 15px;
+  font-size: 13px;
+  border-top: 1px solid hsl(215, 32%, 27%);
+}
+.pf {
+  max-width: 11%;
+  background-color: white;
+  padding: 1px;
+  border-radius: 100%;
+}
+.creation {
+  color: hsl(215, 51%, 70%);
+  padding-left: 15px;
+  font-weight: 400;
+  margin-right: 5px;
+}
+.perfil a {
+  color: hsl(0, 0%, 100%);
+  text-decoration: none;
+  font-weight: 400;
+}
+.perfil a:hover {
+  color: hsl(178, 100%, 50%);
+}

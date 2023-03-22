@@ -1,37 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-  <link rel="stylesheet" href="style.css">
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | NFT preview card component</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body>
-  <div class="pai">
-    <div class="image">
-      <img class= "logocubo" src="images/image-equilibrium.jpg" alt="image-equilibrium">
+    <title>Frontend Mentor | NFT preview card component</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="pai">
+      <div class="image">
+        <img
+          class="logocubo"
+          src="images/image-equilibrium.jpg"
+          alt="image-equilibrium"
+        />
+        <div class="olho">
+          <img src="/images/icon-view.svg" alt="" />
+        </div>
+      </div>
+      <div class="texto">
+        <a href="#">Equilibrium #3429</a>
+        <p>Our Equilibrium collection promotes balance and calm.</p>
+      </div>
+      <div class="valor">
+        <span class="ETH">
+          <img src="images/icon-ethereum.svg" alt="" />
+          <h2>0.041 ETH</h2></span
+        >
+        <span class="clock"
+          ><img src="images/icon-clock.svg" alt="" />
+          <p>3 days left</p></span
+        >
+      </div>
+      
+      <div class="perfil">
+        <img class="pf" src="/images/image-avatar.png" alt="image-avatar" />
+        <span class="creation">Creation of </span><a href="#">Jules Wyvern</a>
+      </div>
     </div>
-    <div class="texto">
-      <h2>Equilibrium #3429</h2>
-      <p>Our Equilibrium collection promotes balance and calm.</p>
-    </div>
-    <div class="valor">
-     <span class="ETH"> <img  src="images/icon-ethereum.svg" alt=""> <h2>0.041 ETH</h2></span>
-    <span class="clock"><img  src="images/icon-clock.svg" alt=""> <p>3 days left</p></span>
-    </div>
-    <div class="linha"></div>
-    <div class="perfil">
-      <img class= "pf" src="/images/image-avatar.png" alt="image-avatar">
-      <span class="creation">Creation of </span><span class="jules"> Jules Wyvern</span>
-    </div>
-  </div> <!--pai-->
-</body>
+    <!--pai-->
+  </body>
 </html>
